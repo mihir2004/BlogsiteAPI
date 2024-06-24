@@ -56,6 +56,7 @@ The project also includes a frontend application that calls the API servers to i
   PORT=3000
   DATABASE_URL=postgres://username:password@localhost:5432/blogsite
   JWT_SECRET=your_jwt_secret
+  ```
 5. Start the Server:
    ```bash
    npm start
