@@ -10,10 +10,10 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 const db = new pg.Client({
-    user:"postgres",
-    host:"localhost",
-    database:"blog",
-    password:"Mihir@2004",
+    user:"*******",
+    host:"********",
+    database:"*****",
+    password:"********",
     port:5432
 });
 
