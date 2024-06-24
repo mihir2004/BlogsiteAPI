@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>PostCraft | Blog Website</title>
+</head>
+<body>
+
+<%- include("./partials/header.ejs") %>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle">A blog page for learners</p>
+                    <h1 class="hero-title">Connect & learn from the people</h1>
+                    <p class="hero-description">Grow your knowledge with industry experts.</p>
+                    <a href="/signup" class="join-free-button" role="button">
+                        Join for free
+                        <svg class="join-free-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </a>
+                    <p class="already-joined">Already joined us? <a href="/login" class="login-link">Log in</a></p>
+                </div>
+                <div class="hero-image">
+                    <img src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../public/scripts/navbar.js"></script>
+</body>
+</html>

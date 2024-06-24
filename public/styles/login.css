@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FCF8F1;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.login {
+    background-color: rgba(252, 248, 241, 0.3);
+    padding: 2rem 0;
+}
+
+.login-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.login-description {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+}
+
+.password-group {
+    display: flex;
+    align-items: center;
+}
+
+.password-group input {
+    flex-grow: 1;
+}
+
+.toggle-password {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    padding: 0;
+}
+
+.password-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.submit-button {
+    display: inline-flex;
+    padding: 0.75rem 1.5rem;
+    background-color: #FFEB3B;
+    color: black;
+    border: none;
+    border-radius: 9999px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    background-color: #FDD835;
+}
+
+.not-registered {
+    margin-top: 1rem;
+    color: #4B5563;
+}
+
+.signup-link {
+    color: black;
+    text-decoration: none;
+    transition: text-decoration 0.2s;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (min-width: 1024px) {
+    .menu-button {
+        display: none;
+    }
+}
